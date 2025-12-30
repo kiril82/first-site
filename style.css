@@ -1,1 +1,199 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+  
+}
 
+header{
+    background-image: linear-gradient(#dbc38a,#dbcaa2);
+    padding: 15px;
+}
+
+nav{
+  display: flex;  
+  justify-content: space-evenly;
+  letter-spacing: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo{
+    color: #ebc438;
+    background-color: #242116;
+    border: 3px;
+    border-radius: 30px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop{
+    background-color: #0a0a0a;
+    color: #faf9f2;
+    font-size: 20px;
+    margin: 0;
+    height: 35px;
+    text-align: center;
+}
+
+.hero-block{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/BCNL4hjkmkPsJ4kQg7csbC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ebc73b;
+    min-height: 90vh;
+    font-size: 32px;
+}
+
+.perevahy{
+  max-width: 1200px;
+  margin: 40px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h2{
+  font-size: 25px;
+  color: #ebc73b;
+background: #0A0A0A;
+background: linear-gradient(180deg,rgba(10, 10, 10, 1) 0%, 
+rgba(110, 110, 110, 1) 26%, rgba(168, 163, 163, 1) 49%, 
+rgba(191, 191, 191, 1) 66%, rgba(224, 224, 224, 1) 83%, 
+rgba(255, 255, 255, 1) 100%);
+margin-top: 0;
+height: 50px;
+text-align: center;
+}
+
+
+.kartka-perevah {
+  width: 280px;
+  background: #f6f8fc;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.kartka-perevah h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #75d1eb;
+}
+
+.kartka-perevah p {
+  font-size: 14px;
+  color: #21211e;
+  margin-bottom: 16px;
+}
+
+.kartka-perevah a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
+}
+
+.linijki{
+    font-size: 25px;
+    color: #ebc73b;
+    background-color: #0a0a0a;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.photo img{
+   height: 200px; 
+   width: 200px;
+}
+
+.galereja{
+background-color: white;
+}
+
+.kartka-telefon{
+color: #333128;
+background-image: url('https://i.pinimg.com/originals/42/31/1a/42311af1efae63f785c331af3bacdc3e.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+padding: 10px;
+margin: 8px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+border-radius: 10px;
+}
+
+.harakterystyky1{
+    display: flex;
+    flex-direction: row;
+}
+
+.harakterystyky2{
+    display: flex;
+    flex-direction: row;
+}
+
+.harakterystyky3{
+    display: flex;
+    flex-direction: row;
+}
+
+.harakterystyky4{
+    display: flex;
+    flex-direction: row;
+}
+
+.harakterystyky5{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.kartka-telefon h3 {
+  font-size: 24px;
+  margin: 10px;
+}
+
+h4{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.kartka-telefon p {
+  font-size: 16px;
+  color: #21211e;
+  margin: 20px;
+}
+
+.kartka-telefon a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: underline;
+}
+
+.footer{
+    background-color: #242116;
+    color: #ebc73b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer img{
+    width: 80px;
+}
