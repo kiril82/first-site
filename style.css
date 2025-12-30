@@ -65,16 +65,12 @@ a{
 }
 
 h2{
-  font-size: 25px;
-  color: #ebc73b;
-background: #0A0A0A;
-background: linear-gradient(180deg,rgba(10, 10, 10, 1) 0%, 
-rgba(110, 110, 110, 1) 26%, rgba(168, 163, 163, 1) 49%, 
-rgba(191, 191, 191, 1) 66%, rgba(224, 224, 224, 1) 83%, 
-rgba(255, 255, 255, 1) 100%);
+font-size: 25px;
+color: #ebc73b;
 margin-top: 0;
 height: 50px;
 text-align: center;
+background-color: #0a0a0a;
 }
 
 
@@ -85,7 +81,13 @@ text-align: center;
   padding: 20px;
   margin: 8px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  transition: all 0.4s;
 }
+
+.kartka-perevah:hover{
+    background-color: #ededed;
+}
+  
 
 .kartka-perevah h3 {
   font-size: 18px;
@@ -127,13 +129,15 @@ background-color: white;
 
 .kartka-telefon{
 color: #333128;
-background-image: url('https://i.pinimg.com/originals/42/31/1a/42311af1efae63f785c331af3bacdc3e.jpg');
+background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 padding: 10px;
 margin: 8px;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+-webkit-box-shadow: 0px 9px 49px -12px rgba(228, 192, 87, 1);
+-moz-box-shadow: 0px 9px 49px -12px rgba(228, 192, 87, 1);
+box-shadow: 0px 9px 49px -12px rgba(228, 192, 87, 1);
 border-radius: 10px;
 }
 
